@@ -1,0 +1,67 @@
+:root {
+  /* Colors */
+  --background: #FFF8EF;
+  --surface: #FFF3E4;
+  --primary: #C86A2A;
+  --primary-dark: #A9551E;
+  --text: #3B312B;
+  --text-light: #6E625A;
+  --border: #E8D8C3;
+  --white: #FFFFFF;
+
+  /* Accent Colors */
+  --sage-green: #7EA174;
+  --sky-blue: #74B9E8;
+  --golden-yellow: #F2C94C;
+  --soft-purple: #9B8AFB;
+  
+  /* Typography Sizes */
+  --text-hero: 32px;
+  --text-section: 24px;
+  --text-card: 18px;
+  --text-body: 16px;
+  --text-caption: 14px;
+
+  /* Spacing & Borders */
+  --radius-btn: 12px;
+  --radius-card: 16px;
+  --radius-modal: 20px;
+  --radius-nav: 18px;
+  
+  /* Warm Shadows */
+  --shadow-sm: 0 2px 8px rgba(120, 70, 20, 0.10);
+  --shadow-md: 0 4px 16px rgba(120, 70, 20, 0.15);
+  --shadow-lg: 0 8px 32px rgba(120, 70, 20, 0.20);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background-color: #E2DFD8; /* Desktop background */
+  color: var(--text);
+  line-height: 1.6;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4, .btn {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  color: var(--text);
+}
+
+p {
+  font-size: var(--text-body);
+  color: var(--text-light);
+}
+
+a {
+  text-decoration: none;
+}
